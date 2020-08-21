@@ -1,0 +1,12 @@
+name: abl_resistance
+channels:
+  - conda-forge
+  - rdkit
+dependencies:
+  - pip
+  - python
+  - jupyterlab
+  - mdanalysis
+  - rdkit
+  - pip:
+      - https://github.com/volkamerlab/klifs_utils/archive/master.tar.gz
