@@ -1,12 +1,18 @@
 name: abl_resistance
 channels:
   - conda-forge
+  - omnia
+  - openeye
   - rdkit
 dependencies:
   - pip
-  - python
+  - python=3.7
+  - appdirs
   - jupyterlab
   - mdanalysis
   - rdkit
+  - openeye-toolkits
+  - openforcefield
   - pip:
       - https://github.com/volkamerlab/klifs_utils/archive/master.tar.gz
+      - git+git://github.com/openkinome/kinoml.git@f5b96b04a564bd57a9541a8af2fe360c41ee692c
