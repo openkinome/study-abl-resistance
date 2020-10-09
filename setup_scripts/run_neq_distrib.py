@@ -25,7 +25,7 @@ parser.add_argument(
     "--input_dir",
     dest="input_dir",
     type=str,
-    help="path to the directory containing the .pickle htf files",
+    help="path to the directory containing the .pickle htf files, in the form: /path/to/data/PDB/X123Y",
 )
 parser.add_argument(
     "--phase", dest="phase", type=str, help="apo or complex", required=True
@@ -69,7 +69,6 @@ timestep = 4.0 * unit.femtosecond
 platform_name = "CUDA"
 
 # Read in htf
-# assuming the dir path is as: "/data/chodera/glassw/kinoml/Abl/mutations_htf_output/4xey/X123Y"
 pdb_code = os.path.basename(os.path.dirname(args.input_dir))
 mutation = args.mutation
 
