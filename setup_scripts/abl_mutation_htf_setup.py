@@ -97,7 +97,7 @@ df_i = df[df["tki"] == index_dict[i][0]]
 data_path = args.data_path
 out_path = args.output_path
 
-# Create mutations output directory
+# check mutations output directory exists
 out_dir = f"{out_path}mutations_htf_output/"
 if not os.path.exists(out_dir):
     sys.exit(
