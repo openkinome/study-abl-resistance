@@ -15,4 +15,4 @@ dependencies:
   - openforcefield
   - pip:
       - https://github.com/volkamerlab/klifs_utils/archive/master.tar.gz
-      - git+git://github.com/openkinome/kinoml.git@f5b96b04a564bd57a9541a8af2fe360c41ee692c
+      - git+git://github.com/openkinome/kinoml.git@730889649d3e5780d3e4a2eaa616fe8fd850cdd8
