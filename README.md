@@ -24,7 +24,13 @@ This repository will be used to benchmark and improve KinoML and Perses.
 ### Structure
 
 - `notebooks/atp_kinase_conformations.ipynb`  
-  - jupyter notebook analyzing the conformations of ATP bound kinases 
+  - jupyter notebook analyzing the conformations of ATP bound kinases
+- `notebooks/abl1_atp_modeling.ipynb`
+  - jupyter notebook generating an ABL1 ATP complex
+- `notebooks/abl_complex_modeling.ipynb`
+  - jupyter notebook generating inhibitor bound complexes for the [Hauser 2018](https://doi.org/10.1038/s42003-018-0075-x) benchmark
+- `notebooks/abl_complex_modeling_with_water.ipynb`
+  - jupyter notebook using updated KinoML functionalities to generate inhibitor bound complexes for the [Hauser 2018](https://doi.org/10.1038/s42003-018-0075-x) benchmark including water
 
 ### Authors
 
